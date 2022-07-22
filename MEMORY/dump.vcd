@@ -1,0 +1,203 @@
+$date
+	Wed Jul  6 19:05:03 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench_MEMORY $end
+$var wire 32 ! Dout [31:0] $end
+$var reg 8 " Addr [7:0] $end
+$var reg 32 # Din [31:0] $end
+$var reg 1 $ Valid $end
+$var reg 1 % clk $end
+$var reg 1 & reset $end
+$var reg 1 ' rw $end
+$scope module DUT $end
+$var wire 8 ( Addr [7:0] $end
+$var wire 32 ) Din [31:0] $end
+$var wire 1 $ Valid $end
+$var wire 1 % clk $end
+$var wire 1 & reset $end
+$var wire 1 ' rw $end
+$var reg 32 * Dout [31:0] $end
+$var integer 32 + pos [31:0] $end
+$upscope $end
+$scope task display $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100000000 +
+b0 *
+b101 )
+b0 (
+x'
+1&
+0%
+x$
+b101 #
+b0 "
+b0 !
+$end
+#5
+bz !
+bz *
+1'
+1$
+0&
+1%
+#10
+0%
+#15
+b101 !
+b101 *
+0'
+1%
+#20
+1'
+0%
+#25
+bz !
+bz *
+0$
+1%
+#30
+b101100 "
+b101100 (
+b111100000000 #
+b111100000000 )
+1$
+0%
+#35
+b0 !
+b0 *
+0'
+1%
+#40
+1'
+0%
+#45
+bz !
+bz *
+1%
+#50
+0%
+#53
+0'
+#55
+b111100000000 !
+b111100000000 *
+1%
+#60
+0%
+#65
+1%
+#70
+0%
+#75
+1%
+#80
+0%
+#85
+1%
+#90
+0%
+#95
+1%
+#100
+0%
+#105
+1%
+#110
+0%
+#115
+1%
+#120
+0%
+#125
+1%
+#130
+0%
+#135
+1%
+#140
+0%
+#145
+1%
+#150
+0%
+#155
+1%
+#160
+0%
+#165
+1%
+#170
+0%
+#175
+1%
+#180
+0%
+#185
+1%
+#190
+0%
+#195
+1%
+#200
+0%
+#205
+1%
+#210
+0%
+#215
+1%
+#220
+0%
+#225
+1%
+#230
+0%
+#235
+1%
+#240
+0%
+#245
+1%
+#250
+0%
+#255
+1%
+#260
+0%
+#265
+1%
+#270
+0%
+#275
+1%
+#280
+0%
+#285
+1%
+#290
+0%
+#295
+1%
+#300
+0%
+#305
+1%
+#310
+0%
+#315
+1%
+#320
+0%
+#325
+1%
+#328

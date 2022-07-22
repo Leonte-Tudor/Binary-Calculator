@@ -1,0 +1,110 @@
+$date
+	Wed Jul  6 19:03:53 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench_M_ALU $end
+$var wire 4 ! FLAG_TMP [3:0] $end
+$var wire 8 " ALU_OUT_TMP [7:0] $end
+$var reg 8 # A [7:0] $end
+$var reg 8 $ B [7:0] $end
+$var reg 4 % SEL_TMP [3:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx %
+bx $
+bx #
+b0 "
+b0 !
+$end
+#1
+b101111 "
+b100 $
+b101011 #
+b0 %
+#2
+b10 !
+b10000100 $
+b10101011 #
+#3
+b0 !
+b100111 "
+b100 $
+b101011 #
+b1 %
+#4
+b1000 !
+b11011001 "
+b100 #
+b101011 $
+#5
+b0 !
+b10101100 "
+b100 $
+b101011 #
+b10 %
+#6
+b100 !
+b101100 "
+b10000100 $
+b10101011 #
+#7
+b0 !
+b1010 "
+b100 $
+b101011 #
+b11 %
+#8
+b1001 !
+b0 "
+b100 #
+b101011 $
+#9
+b0 !
+b10110000 "
+b100 $
+b101011 #
+b100 %
+#10
+b10 !
+b1011000 "
+b11 $
+#11
+b0 !
+b1 "
+b100 $
+b101 %
+#12
+b1 !
+b0 "
+b10000100 $
+#13
+b0 !
+b10 "
+b110 $
+b110 %
+#14
+b101111 "
+b100 $
+b111 %
+#15
+b1000 %
+#16
+b11010000 "
+b1001 %
+#17
+b11111111 "
+b1010 %
+#18
+b11010000 "
+b1011 %
+#19
+b0 "
+b1100 %
+#20

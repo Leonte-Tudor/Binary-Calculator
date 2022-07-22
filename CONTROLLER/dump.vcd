@@ -1,0 +1,254 @@
+$date
+	Wed Jul 13 15:08:09 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_DEC_INPUT_KEY $end
+$var wire 1 ! mode $end
+$var wire 1 " active $end
+$var reg 1 # clk $end
+$var reg 1 $ input_key $end
+$var reg 1 % reset $end
+$var reg 1 & valid_cmd $end
+$scope module DUT $end
+$var wire 1 " active $end
+$var wire 1 # clk $end
+$var wire 1 $ input_key $end
+$var wire 1 ! mode $end
+$var wire 1 % reset $end
+$var wire 1 ' s0v $end
+$var wire 1 ( s1v $end
+$var wire 1 ) s2v $end
+$var wire 1 & valid_cmd $end
+$var wire 1 * s2 $end
+$var wire 1 + s1 $end
+$var wire 1 , s0 $end
+$scope module d0 $end
+$var wire 1 # clk $end
+$var wire 1 ' d $end
+$var wire 1 % reset $end
+$var reg 1 , q $end
+$upscope $end
+$scope module d1 $end
+$var wire 1 # clk $end
+$var wire 1 ( d $end
+$var wire 1 % reset $end
+$var reg 1 + q $end
+$upscope $end
+$scope module d2 $end
+$var wire 1 # clk $end
+$var wire 1 ) d $end
+$var wire 1 % reset $end
+$var reg 1 * q $end
+$upscope $end
+$upscope $end
+$scope task display $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+1%
+0$
+0#
+0"
+0!
+$end
+#4
+1'
+1$
+1&
+0%
+#5
+0'
+1,
+1#
+#10
+0#
+#15
+1'
+0,
+1#
+#16
+0'
+0$
+#20
+0#
+#25
+1#
+#28
+1'
+1$
+#30
+0#
+#35
+0'
+1,
+1#
+#40
+1(
+1'
+0#
+0$
+#45
+0'
+0(
+1+
+1#
+#50
+0#
+#52
+1(
+1$
+#55
+0(
+0,
+1#
+#60
+0#
+#64
+1)
+1(
+0$
+#65
+1'
+1*
+1#
+#70
+0#
+#75
+1"
+1,
+1#
+#80
+0#
+#85
+1#
+#90
+0#
+#95
+1#
+#100
+0#
+#105
+1#
+#110
+0#
+#115
+1#
+#120
+0#
+#125
+1#
+#130
+0#
+#135
+1#
+#140
+0#
+#145
+1#
+#150
+0#
+#155
+1#
+#160
+0#
+#165
+1#
+#170
+0#
+#175
+1#
+#180
+0#
+#185
+1#
+#190
+0#
+#195
+1#
+#200
+0#
+#205
+1#
+#210
+0#
+#215
+1#
+#220
+0#
+#225
+1#
+#230
+0#
+#235
+1#
+#240
+0#
+#245
+1#
+#250
+0#
+#255
+1#
+#260
+0#
+#265
+1#
+#270
+0#
+#275
+1#
+#280
+0#
+#285
+1#
+#290
+0#
+#295
+1#
+#300
+0#
+#305
+1#
+#310
+0#
+#315
+1#
+#320
+0#
+#325
+1#
+#330
+0#
+#335
+1#
+#340
+0#
+#345
+1#
+#350
+0#
+#355
+1#
+#360
+0#
+#365
+1#
+#370
+0#
+#375
+1#
+#376
